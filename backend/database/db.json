@@ -1,1 +1,264 @@
-{"properties":[],"users":[],"bookings":[]}
+{
+  "properties": [
+    {
+      "title": "Kaohsiung Howard Plaza Hotel",
+      "highlightedTitle": "Kaohsiung Howard Plaza <b>Hotel</b>",
+      "vicinity": "311, Ci Sian 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "highlightedVicinity": "311, Ci Sian 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "position": [
+        22.63393,
+        120.30803
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8c-8de3d86ce93b42bba45a1aa943403e69;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0x?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8c-8de3d86ce93b42bba45a1aa943403e69",
+      "distance": 2614
+    },
+    {
+      "title": "Han-Hsien Urban Hotel33",
+      "highlightedTitle": "Han-Hsien Urban <b>Hotel</b>33",
+      "vicinity": "33, Min Zu 2nd Rd., Xin Xing Qu, Gao Xiong Shi",
+      "highlightedVicinity": "33, Min Zu 2nd Rd., Xin Xing Qu, Gao Xiong Shi",
+      "position": [
+        22.62979,
+        120.31299
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj89-25b81d4331284b04938f8fb8dcac06de;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0y?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj89-25b81d4331284b04938f8fb8dcac06de",
+      "distance": 2364
+    },
+    {
+      "title": "Metropolitan Hotel",
+      "highlightedTitle": "Metropolitan <b>Hotel</b>",
+      "vicinity": "266, Da Chang 2nd Rd., San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "266, Da Chang 2nd Rd., San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.64602,
+        120.33215
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8f-0f5eab6ce4e64a0882cedda1c5d5e9c0;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0z?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8f-0f5eab6ce4e64a0882cedda1c5d5e9c0",
+      "distance": 468
+    },
+    {
+      "title": "Kindness Hotel - Juemin",
+      "highlightedTitle": "Kindness <b>Hotel </b>- Juemin",
+      "vicinity": "291, Jyue Min Rd., San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "291, Jyue Min Rd., San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.63982,
+        120.33628
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158d408k-0d18a6c2498e0eb00bf74c27a91592a3;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz00?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158d408k-0d18a6c2498e0eb00bf74c27a91592a3",
+      "distance": 490
+    },
+    {
+      "title": "Jin Yi Hotel",
+      "highlightedTitle": "Jin Yi <b>Hotel</b>",
+      "vicinity": "460號, 九如一路, San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "460號, 九如一路, San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.63911,
+        120.32923
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8f-5e08452c82554624adedbd1ee9174618;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz01?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8f-5e08452c82554624adedbd1ee9174618",
+      "distance": 412
+    },
+    {
+      "title": "Hua Xiang Hotel-Da Chang",
+      "highlightedTitle": "Hua Xiang <b>Hotel</b>-Da Chang",
+      "vicinity": "78, Hao Dong Rd., San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "78, Hao Dong Rd., San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.64809,
+        120.33295
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8f-9b6073c34e17465583d792e90ebc716e;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz02?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8f-9b6073c34e17465583d792e90ebc716e",
+      "distance": 704
+    },
+    {
+      "title": "Top Plaza Hotel",
+      "highlightedTitle": "Top Plaza <b>Hotel</b>",
+      "vicinity": "226號, 大昌二路, San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "226號, 大昌二路, San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.64479,
+        120.33223
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158aabd1-653a96a5bf17085b654559281944e69b;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz03?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158aabd1-653a96a5bf17085b654559281944e69b",
+      "distance": 333
+    },
+    {
+      "title": "The Riverside Hotel",
+      "highlightedTitle": "The Riverside <b>Hotel</b>",
+      "vicinity": "憲政路, Ling Ya Qu, Gao Xiong Shi",
+      "highlightedVicinity": "憲政路, Ling Ya Qu, Gao Xiong Shi",
+      "position": [
+        22.63607,
+        120.3241
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158aabd1-b1846f2b2aea0d378ddbcfead27d6702;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz04?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158aabd1-b1846f2b2aea0d378ddbcfead27d6702",
+      "distance": 1031
+    },
+    {
+      "title": "GREAT TOWN HOTEL",
+      "highlightedTitle": "GREAT TOWN <b>HOTEL</b>",
+      "vicinity": "37, Jian Min Rd., Ling Ya Qu, Gao Xiong Shi",
+      "highlightedVicinity": "37, Jian Min Rd., Ling Ya Qu, Gao Xiong Shi",
+      "position": [
+        22.62851,
+        120.33306
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8d-0c94ca7c54c74ad1acb4acba5f392128;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz05?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8d-0c94ca7c54c74ad1acb4acba5f392128",
+      "distance": 1475
+    },
+    {
+      "title": "Lees Boutique Hotel",
+      "highlightedTitle": "Lees Boutique <b>Hotel</b>",
+      "vicinity": "106, Wu Fu 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "highlightedVicinity": "106, Wu Fu 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "position": [
+        22.62744,
+        120.31318
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj89-5e78dfd8a4a04aa1ba0d79488d2f2ef7;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xMA?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj89-5e78dfd8a4a04aa1ba0d79488d2f2ef7",
+      "distance": 2504
+    },
+    {
+      "title": "The Grand Hotel Kaohsiung",
+      "highlightedTitle": "The Grand <b>Hotel</b> Kaohsiung",
+      "vicinity": "2, Yuan Shan Rd., Niao Song Qu, Gao Xiong Shi",
+      "highlightedVicinity": "2, Yuan Shan Rd., Niao Song Qu, Gao Xiong Shi",
+      "position": [
+        22.65483,
+        120.34665
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8f-22df44c6b7c04428a4ccc7e8178b0f20;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xMQ?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8f-22df44c6b7c04428a4ccc7e8178b0f20",
+      "distance": 2085,
+      "chainIds": [
+        "6884"
+      ]
+    },
+    {
+      "title": "Han Hsien International",
+      "highlightedTitle": "Han Hsien International",
+      "vicinity": "33, Sih Wei 3rd Rd., Ling Ya Qu, Gao Xiong Shi",
+      "highlightedVicinity": "33, Sih Wei 3rd Rd., Ling Ya Qu, Gao Xiong Shi",
+      "position": [
+        22.61905,
+        120.31088
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj89-6d8e2cc668ed424c8932af4d2637d5c6;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xMg?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj89-6d8e2cc668ed424c8932af4d2637d5c6",
+      "distance": 3326
+    },
+    {
+      "title": "Goodness Hotel",
+      "highlightedTitle": "Goodness <b>Hotel</b>",
+      "vicinity": "57, Jian Guo 1st Rd., Ling Ya Qu, Gao Xiong Shi",
+      "highlightedVicinity": "57, Jian Guo 1st Rd., Ling Ya Qu, Gao Xiong Shi",
+      "position": [
+        22.62947,
+        120.33889
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8d-0c9b48d085484e07862282a84f3b4607;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xMw?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8d-0c9b48d085484e07862282a84f3b4607",
+      "distance": 1537
+    },
+    {
+      "title": "Guo Sen Hotel",
+      "highlightedTitle": "Guo Sen <b>Hotel</b>",
+      "vicinity": "790, Jiou Ru 1st Rd., San Min Qu, Gao Xiong Shi",
+      "highlightedVicinity": "790, Jiou Ru 1st Rd., San Min Qu, Gao Xiong Shi",
+      "position": [
+        22.64007,
+        120.32039
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8c-252c6a34ca1448d381cf5ad01807ca68;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xNA?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8c-252c6a34ca1448d381cf5ad01807ca68",
+      "distance": 1209
+    },
+    {
+      "title": "THE RIVERSIDE  HOTEL",
+      "highlightedTitle": "THE RIVERSIDE  <b>HOTEL</b>",
+      "vicinity": "128, Sian Jheng Rd., Ling Ya Qu, Gao Xiong Shi",
+      "highlightedVicinity": "128, Sian Jheng Rd., Ling Ya Qu, Gao Xiong Shi",
+      "position": [
+        22.63607,
+        120.3241
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158jx7ps-bfc6640e2c4b0bb186b83126ea4b6a55;context=Zmxvdy1pZD05NGY0YmE5OS1lZGEyLTUxMmItOWJmNy04NWRlNzllZTg3ZDZfMTU1OTg5MTkyNzA5OF85OTI4XzQ1MjUmcmFuaz0xNQ?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158jx7ps-bfc6640e2c4b0bb186b83126ea4b6a55",
+      "distance": 1031
+    }
+  ],
+  "users": [],
+  "bookings": []
+}

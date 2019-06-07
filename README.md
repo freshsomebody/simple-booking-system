@@ -52,10 +52,10 @@ npm run reset-db
 ## Minimum requirements
 ## 1. Make sure there's a list, which lets you see/find any property around your current location.
 ### Frontend
-* [ ] Get the current location
-* [ ] Query properties which are nearby the current location from the backend
-* [ ] Display all the properties as a list
-  * [ ] Sort the list by distance
+* [X] Get the current location
+* [X] Query properties which are nearby the current location from the backend
+* [X] Display all the properties as a list
+  * [X] Sort the list by distance
 ### Backend
 * [X] GET API for accepting queries of nearby properties
   * [X] Query nearby properties by HERE place API
@@ -64,7 +64,7 @@ npm run reset-db
 
 ## 2. Make sure the user can select a specific property, and create a "fake" booking request.
 ### Frontend
-* [ ] Navigate to the booking page when the user clicks on a property
+* [X] Navigate to the booking page when the user clicks on a property
   * [ ] Display booking form
     * [ ] Select checkin and checkout dates
     * [ ] Select number of rooms
