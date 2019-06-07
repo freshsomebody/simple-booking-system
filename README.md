@@ -41,7 +41,7 @@ npm run database
 * [X] init backend
   * [X] init database
 * Database schema
-  * [ ] PROPERTY
+  * [X] PROPERTY
   * [ ] USER
   * [ ] BOOKINGS
 
@@ -53,9 +53,9 @@ npm run database
 * [ ] Display all the properties as a list
   * [ ] Sort the list by distance
 ### Backend
-* [ ] GET API for accepting queries of nearby properties
-  * [ ] Query nearby properties by HERE place API
-  * [ ] Store distinct result into database (demo purpose)
+* [X] GET API for accepting queries of nearby properties
+  * [X] Query nearby properties by HERE place API
+  * [X] Store distinct result into database (demo purpose)
 
 
 ## 2. Make sure the user can select a specific property, and create a "fake" booking request.
