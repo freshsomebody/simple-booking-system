@@ -8,6 +8,7 @@
     "serve": "node ./bin/www",
     "devserve": "nodemon ./bin/www",
     "database": "json-server --port 3030 --watch ./database/db.json",
+    "reset-db": "node ./database/reset",
     "lint": "eslint . --fix",
     "test": "jest"
   },

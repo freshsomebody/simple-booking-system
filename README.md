@@ -34,6 +34,10 @@ npm run serve
 ```
 npm run database
 ```
+Init or clear the database
+```
+npm run reset-db
+```
 
 # Dev items
 
