@@ -46,8 +46,8 @@ npm run reset-db
   * [X] init database
 * Database schema
   * [X] PROPERTY
-  * [ ] USER
-  * [ ] BOOKINGS
+  * [X] USER
+  * [X] BOOKINGS
 
 ## Minimum requirements
 ## 1. Make sure there's a list, which lets you see/find any property around your current location.
@@ -72,13 +72,13 @@ npm run reset-db
     * [X] Select number of rooms
     * [X] Input username, email
   * [X] Calculate the total
-  * [ ] Submit to confirm booking
+  * [X] Submit to confirm booking
 * [ ] Navigate/ display the confirmation page when the booking is completed
   * [ ] Be able to review the confirmation page by the same url later
 ### Backend
-* [ ] POST API for creating a new booking record
-  * [ ] Create a new user record (if the username, email not exist yet)
-  * [ ] Create a new booking record
+* [X] POST API for creating a new booking record
+  * [X] Create a new user record (if the username, email does not exist yet)
+  * [X] Create a new booking record
 
 ## 3. Show the booking requests list with a public API.
 * [ ] /properties/PROPERTY_ID/bookings
