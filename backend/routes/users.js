@@ -1,9 +1,17 @@
 var express = require('express')
 var router = express.Router()
 
-/* GET users listing. */
-router.get('/', function (req, res, next) {
-  res.send('respond with a resource')
+const BookingsModel = require('../models/BookingsModel')
+
+// Query bookings with the specific user_id
+router.get('/:userId/bookings', async (req, res) => {
+  try {
+    const { data } = await BookingsModel.fetchBookingsByUserId(req.params.userId)
+
+    res.status(200).json(data)
+  } catch (err) {
+    res.status(500).json(err.message)
+  }
 })
 
 module.exports = router

@@ -3,6 +3,7 @@ const app = require('../../app')
 
 let axios = require('axios')
 const PM = require('../../models/PropertiesModel')
+const BM = require('../../models/BookingsModel')
 
 const mockNearbyProperties = {
   results: [
@@ -20,6 +21,8 @@ describe('GET api/properties/nearby/:lat/:lng', () => {
 
     PM.fetchPropertyById = jest.fn(() => Promise.resolve({ data: [{ id: 1 }] }))
     PM.insertPropertyIfNotExist = jest.fn(() => Promise.resolve())
+
+    BM.fetchBookingsByPropertyId = jest.fn(() => Promise.resolve({ data: [] }))
   })
 
   it('calls Here api with the user position', async () => {
@@ -49,7 +52,7 @@ describe('GET api/properties/nearby/:lat/:lng', () => {
   })
 })
 
-describe('GET api/properties/:id', () => {
+describe('GET api/properties/:propertyId', () => {
   it('calls PM.fetchPropertyById with id', async () => {
     await request(app).get('/api/properties/1')
 
@@ -68,5 +71,22 @@ describe('GET api/properties/:id', () => {
     const response = await request(app).get('/api/properties/1')
 
     expect(response.statusCode).toBe(404)
+  })
+})
+
+describe('GET api/properties/:propertyId/bookings', () => {
+  it('calls BM.fetchBookingsByPropertyId with propertyId', async () => {
+    await request(app).get('/api/properties/1/bookings')
+
+    expect(BM.fetchBookingsByPropertyId).toBeCalledWith('1')
+  })
+
+  it('returns statusCode 200 and bookings', async () => {
+    const mockRes = [1, 2, 3]
+    BM.fetchBookingsByPropertyId = jest.fn(() => Promise.resolve({ data: mockRes }))
+    const response = await request(app).get('/api/properties/1/bookings')
+
+    expect(response.statusCode).toBe(200)
+    expect(response.text).toBe(JSON.stringify(mockRes))
   })
 })

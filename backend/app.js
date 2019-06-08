@@ -7,6 +7,7 @@ var compression = require('compression')
 
 const propertiesRouter = require('./routes/properties')
 const bookingsRouter = require('./routes/bookings')
+const usersRouter = require('./routes/users')
 
 var app = express()
 
@@ -20,5 +21,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/api/properties', propertiesRouter)
 app.use('/api/bookings', bookingsRouter)
+app.use('/api/users', usersRouter)
 
 module.exports = app

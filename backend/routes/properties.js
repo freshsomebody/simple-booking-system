@@ -5,6 +5,7 @@ const axios = require('axios')
 const HERE = require('../constants/HERE.js')
 
 const PropertiesModel = require('../models/PropertiesModel')
+const BookingsModel = require('../models/BookingsModel')
 
 // Query the near by properties
 router.get('/nearby/:latitude/:longitude', async (req, res) => {
@@ -30,14 +31,25 @@ router.get('/nearby/:latitude/:longitude', async (req, res) => {
 })
 
 // Query a property by id
-router.get('/:id', async (req, res) => {
+router.get('/:propertyId', async (req, res) => {
   try {
-    const { data } = await PropertiesModel.fetchPropertyById(req.params.id)
+    const { data } = await PropertiesModel.fetchPropertyById(req.params.propertyId)
 
     if (data.length !== 0) res.status(200).json(data)
     else res.status(404).send('Cannot find this property')
   } catch (err) {
     res.status(500).send(err.message)
+  }
+})
+
+// Query bookings with the specific property_id
+router.get('/:propertyId/bookings', async (req, res) => {
+  try {
+    const { data } = await BookingsModel.fetchBookingsByPropertyId(req.params.propertyId)
+
+    res.status(200).json(data)
+  } catch (err) {
+    res.status(500).send(err.emssage)
   }
 })
 

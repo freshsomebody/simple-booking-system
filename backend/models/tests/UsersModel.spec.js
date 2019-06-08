@@ -11,7 +11,7 @@ const mockUser = {
 describe('UsersModel', () => {
   beforeEach(() => {
     axios.get = jest.fn(() => Promise.resolve({ data: [] }))
-    axios.post = jest.fn(() => Promise.resolve({ data: {id: 1} }))
+    axios.post = jest.fn(() => Promise.resolve({ data: { id: 1 } }))
   })
 
   it('insertUserIfNotExist calls axios.get with id', async () => {

@@ -272,6 +272,11 @@
       "name": "amy",
       "email": "sam@mail",
       "id": 2
+    },
+    {
+      "name": "cat",
+      "email": "cat@ge",
+      "id": 3
     }
   ],
   "bookings": [
@@ -316,6 +321,20 @@
       "checkout_date": "2019-06-09",
       "number_of_rooms": 1,
       "id": 3
+    },
+    {
+      "property_id": "158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3",
+      "property_name": "Wei Ye Na Garden Motel",
+      "city": "Gao Xiong Shi",
+      "user": {
+        "id": 3,
+        "name": "cat",
+        "email": "cat@ge"
+      },
+      "checkin_date": "2019-06-08",
+      "checkout_date": "2019-06-09",
+      "number_of_rooms": 1,
+      "id": 4
     }
   ]
 }

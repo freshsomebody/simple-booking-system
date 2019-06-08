@@ -81,5 +81,7 @@ npm run reset-db
   * [X] Create a new booking record
 
 ## 3. Show the booking requests list with a public API.
-* [ ] /properties/PROPERTY_ID/bookings
-* [ ] /users/USER_ID/bookings
+* [X] /properties/PROPERTY_ID/bookings
+  * http://localhost:3000/api/properties/PROPERTY_ID/bookings
+* [X] /users/USER_ID/bookings
+  * http://localhost:3000/api/users/USER_ID/bookings
