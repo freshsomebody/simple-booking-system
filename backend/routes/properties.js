@@ -3,7 +3,8 @@ var router = express.Router()
 const axios = require('axios')
 
 const HERE = require('../constants/HERE.js')
-const DB = require('../constants/DB.js')
+
+const PropertiesModel = require('../models/PropertiesModel')
 
 // Query the near by properties
 router.get('/nearby/:latitude/:longitude', async (req, res) => {
@@ -19,7 +20,7 @@ router.get('/nearby/:latitude/:longitude', async (req, res) => {
     // insert new properties if not exist
     // ** only for demo purpose **
     for (const property of properties) {
-      await insertPropertyIfNotExist(property)
+      await PropertiesModel.insertPropertyIfNotExist(property)
     }
 
     res.status(200).json(properties)
@@ -31,7 +32,7 @@ router.get('/nearby/:latitude/:longitude', async (req, res) => {
 // Query a property by id
 router.get('/:id', async (req, res) => {
   try {
-    const { data } = await axios.get(`${DB.HOST}/properties?id=${req.params.id}`)
+    const { data } = await PropertiesModel.fetchPropertyById(req.params.id)
 
     if (data.length !== 0) res.status(200).json(data)
     else res.status(404).send('Cannot find this property')
@@ -39,15 +40,5 @@ router.get('/:id', async (req, res) => {
     res.status(500).send(err.message)
   }
 })
-
-const insertPropertyIfNotExist = async (property) => {
-  // try to get the property with the same id
-  const ifExist = await axios.get(`${DB.HOST}/properties?id=${property.id}`)
-
-  // if not exist => insert a new property
-  if (ifExist.data.length === 0) {
-    await axios.post(`${DB.HOST}/properties`, property)
-  }
-}
 
 module.exports = router

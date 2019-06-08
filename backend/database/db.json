@@ -1,1 +1,321 @@
-{"properties":[],"users":[],"bookings":[]}
+{
+  "properties": [
+    {
+      "title": "Kaohsiung Howard Plaza Hotel",
+      "highlightedTitle": "Kaohsiung Howard Plaza <b>Hotel</b>",
+      "vicinity": "311, Ci Sian 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "highlightedVicinity": "311, Ci Sian 1st Rd., Xin Xing Qu, Gao Xiong Shi",
+      "position": [
+        22.63393,
+        120.30803
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj8c-8de3d86ce93b42bba45a1aa943403e69;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0x?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj8c-8de3d86ce93b42bba45a1aa943403e69",
+      "distance": 10952
+    },
+    {
+      "title": "Wei Ye Na Garden Motel",
+      "highlightedTitle": "Wei Ye Na Garden Motel",
+      "vicinity": "1, Alley 82, Lane 355, Sing Nan Rd., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "1, Alley 82, Lane 355, Sing Nan Rd., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72792,
+        120.33232
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0y?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3",
+      "distance": 2334
+    },
+    {
+      "title": "He Guang Hotel",
+      "highlightedTitle": "He Guang <b>Hotel</b>",
+      "vicinity": "67, Lane 190, Nan Zih Sin Rd., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "67, Lane 190, Nan Zih Sin Rd., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72636,
+        120.32767
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj96-7f4c9560b2824886a4acd29b7c92830a;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0z?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj96-7f4c9560b2824886a4acd29b7c92830a",
+      "distance": 2772
+    },
+    {
+      "title": "Han-Hsien Urban Hotel33",
+      "highlightedTitle": "Han-Hsien Urban <b>Hotel</b>33",
+      "vicinity": "33, Min Zu 2nd Rd., Xin Xing Qu, Gao Xiong Shi",
+      "highlightedVicinity": "33, Min Zu 2nd Rd., Xin Xing Qu, Gao Xiong Shi",
+      "position": [
+        22.62979,
+        120.31299
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj89-25b81d4331284b04938f8fb8dcac06de;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz00?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj89-25b81d4331284b04938f8fb8dcac06de",
+      "distance": 11162
+    },
+    {
+      "title": "Ya Tai Hotel",
+      "highlightedTitle": "Ya Tai <b>Hotel</b>",
+      "vicinity": "139, Jian Nan Rd., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "139, Jian Nan Rd., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72675,
+        120.32679
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj96-53ecc615834742b9a4e371cd175385eb;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz01?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj96-53ecc615834742b9a4e371cd175385eb",
+      "distance": 2868
+    },
+    {
+      "title": "E-da Royal Hotel",
+      "highlightedTitle": "E-da Royal <b>Hotel</b>",
+      "vicinity": "153, Sec 1, Syue Cheng Rd., Da Shu Qu, Gao Xiong Shi",
+      "highlightedVicinity": "153, Sec 1, Syue Cheng Rd., Da Shu Qu, Gao Xiong Shi",
+      "position": [
+        22.72967,
+        120.40202
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj97-714036e210b84464b469334c1b5aa3aa;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz02?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj97-714036e210b84464b469334c1b5aa3aa",
+      "distance": 4947
+    },
+    {
+      "title": "Nan Du Hotel",
+      "highlightedTitle": "Nan Du <b>Hotel</b>",
+      "vicinity": "Lane 142, Jhao Yang Rd., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "Lane 142, Jhao Yang Rd., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72575,
+        120.32605
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj96-849eb6e468e347f9a9cfd615d2f191ff;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz03?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj96-849eb6e468e347f9a9cfd615d2f191ff",
+      "distance": 2929
+    },
+    {
+      "title": "Long Yang Hotel",
+      "highlightedTitle": "Long Yang <b>Hotel</b>",
+      "vicinity": "116, Nan Dou E. St., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "116, Nan Dou E. St., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72479,
+        120.32574
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj96-c7839cca09cc4bb68c77e29006824305;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz04?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj96-c7839cca09cc4bb68c77e29006824305",
+      "distance": 2952
+    },
+    {
+      "title": "Adia Budget Hotel",
+      "highlightedTitle": "Adia Budget <b>Hotel</b>",
+      "vicinity": "Ren Wu Qu, Gao Xiong Shi",
+      "highlightedVicinity": "Ren Wu Qu, Gao Xiong Shi",
+      "position": [
+        22.692959,
+        120.354409
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj94-4eb4d21a414c49219ad4047c81d9b618;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz05?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj94-4eb4d21a414c49219ad4047c81d9b618",
+      "distance": 3323
+    },
+    {
+      "title": "Wei Feng Exquisite Hotel Nanzi",
+      "highlightedTitle": "Wei Feng Exquisite <b>Hotel</b> Nanzi",
+      "vicinity": "137, Nan Cheng St., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "137, Nan Cheng St., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.73105,
+        120.33292
+      ],
+      "category": "motel",
+      "categoryTitle": "Motel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158httek-d465fe005a2908a626a5182689683a5d;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0xMA?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158httek-d465fe005a2908a626a5182689683a5d",
+      "distance": 2382
+    },
+    {
+      "title": "E-Da Skylark Hotel",
+      "highlightedTitle": "E-Da Skylark <b>Hotel</b>",
+      "vicinity": "100, Yi Da 8th St., Da Shu Qu, Gao Xiong Shi",
+      "highlightedVicinity": "100, Yi Da 8th St., Da Shu Qu, Gao Xiong Shi",
+      "position": [
+        22.73024,
+        120.40141
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158jx7ps-c5a47aca2a46093208b2f4e85ea867ab;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0xMQ?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158jx7ps-c5a47aca2a46093208b2f4e85ea867ab",
+      "distance": 4895
+    },
+    {
+      "title": "Hua Cheng Hotel",
+      "highlightedTitle": "Hua Cheng <b>Hotel</b>",
+      "vicinity": "273, Jia Chang Rd., Nan Zi Qu, Gao Xiong Shi",
+      "highlightedVicinity": "273, Jia Chang Rd., Nan Zi Qu, Gao Xiong Shi",
+      "position": [
+        22.72077,
+        120.31323
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj93-28db493d4dac4d989e1c327171edd6d0;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0xMg?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj93-28db493d4dac4d989e1c327171edd6d0",
+      "distance": 4237
+    },
+    {
+      "title": "Holiday Garden Hotel",
+      "highlightedTitle": "Holiday Garden <b>Hotel</b>",
+      "vicinity": "279, Liou He 2nd Rd., Qian Jin Qu, Gao Xiong Shi",
+      "highlightedVicinity": "279, Liou He 2nd Rd., Qian Jin Qu, Gao Xiong Shi",
+      "position": [
+        22.62919,
+        120.29091
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj89-540b20370f9145579f391d42f96bcaab;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0xMw?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj89-540b20370f9145579f391d42f96bcaab",
+      "distance": 12265
+    },
+    {
+      "title": "Tayih Landis Hotel",
+      "highlightedTitle": "Tayih Landis <b>Hotel</b>",
+      "vicinity": "660, Sec 1, Si Men Rd., Zhong Xi Qu, Tai Nan Shi",
+      "highlightedVicinity": "660, Sec 1, Si Men Rd., Zhong Xi Qu, Tai Nan Shi",
+      "position": [
+        22.98777,
+        120.19793
+      ],
+      "category": "hotel",
+      "categoryTitle": "Hotel",
+      "href": "https://places.cit.api.here.com/places/v1/places/158wsj6z-7acb310bee6c443a8d3a1a89e433cf7a;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmcmFuaz0xNA?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "place",
+      "id": "158wsj6z-7acb310bee6c443a8d3a1a89e433cf7a",
+      "distance": 33434
+    },
+    {
+      "title": "Hôtel de Ville",
+      "highlightedTitle": "<b>Hôtel</b> de Ville",
+      "vicinity": "59650 Villeneuve-d'Ascq<br/>France",
+      "highlightedVicinity": "59650 Villeneuve-d'Ascq<br/>France",
+      "position": [
+        50.61669,
+        3.13016
+      ],
+      "category": "administrative-region",
+      "categoryTitle": "Administrative Region",
+      "bbox": [
+        3.12028,
+        50.60738,
+        3.13584,
+        50.62418
+      ],
+      "href": "https://places.cit.api.here.com/places/v1/places/loc-dmVyc2lvbj0xO3RpdGxlPUglQzMlQjR0ZWwrZGUrVmlsbGU7bGFuZz1mcjtsYXQ9NTAuNjE2Njk7bG9uPTMuMTMwMTY7Y2l0eT1WaWxsZW5ldXZlLWQlMjdBc2NxO3Bvc3RhbENvZGU9NTk2NTA7Y291bnRyeT1GUkE7ZGlzdHJpY3Q9SCVDMyVCNHRlbCtkZStWaWxsZTtzdGF0ZT1IYXV0cy1kZS1GcmFuY2U7Y291bnR5PU5vcmQ7Y2F0ZWdvcnlJZD1hZG1pbmlzdHJhdGl2ZS1yZWdpb247c291cmNlU3lzdGVtPWludGVybmFsO3Bkc0NhdGVnb3J5SWQ9OTAwLTk0MDAtMDM5OQ;context=Zmxvdy1pZD02OWUyMGY4Mi0yMDBiLTU1YWEtOGI0Ni05ZDA5NjI2ZTE4OWVfMTU2MDAyMTkyNjU4OV82NDQ2XzY1MTQmYmJveD0zLjEyMDI4JTJDNTAuNjA3MzglMkMzLjEzNTg0JTJDNTAuNjI0MTgmcmFuaz0xNQ?app_id=93VY9cBUOn445rgHuvC8&app_code=4613RWSc9o_FM4dj4DV9XA",
+      "type": "urn:nlp-types:place",
+      "resultType": "address",
+      "id": "loc-dmVyc2lvbj0xO3RpdGxlPUglQzMlQjR0ZWwrZGUrVmlsbGU7bGFuZz1mcjtsYXQ9NTAuNjE2Njk7bG9uPTMuMTMwMTY7Y2l0eT1WaWxsZW5ldXZlLWQlMjdBc2NxO3Bvc3RhbENvZGU9NTk2NTA7Y291bnRyeT1GUkE7ZGlzdHJpY3Q9SCVDMyVCNHRlbCtkZStWaWxsZTtzdGF0ZT1IYXV0cy1kZS1GcmFuY2U7Y291bnR5PU5vcmQ7Y2F0ZWdvcnlJZD1hZG1pbmlzdHJhdGl2ZS1yZWdpb247c291cmNlU3lzdGVtPWludGVybmFsO3Bkc0NhdGVnb3J5SWQ9OTAwLTk0MDAtMDM5OQ",
+      "distance": 9828576
+    }
+  ],
+  "users": [
+    {
+      "name": "Sam",
+      "email": "sam@mail",
+      "id": 1
+    },
+    {
+      "name": "amy",
+      "email": "sam@mail",
+      "id": 2
+    }
+  ],
+  "bookings": [
+    {
+      "property_id": "158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3",
+      "property_name": "Wei Ye Na Garden Motel",
+      "city": "Gao Xiong Shi",
+      "user": {
+        "id": 1,
+        "name": "Sam",
+        "email": "sam@mail"
+      },
+      "checkin_date": "2019-06-08",
+      "checkout_date": "2019-06-09",
+      "number_of_rooms": 1,
+      "id": 1
+    },
+    {
+      "property_id": "158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3",
+      "property_name": "Wei Ye Na Garden Motel",
+      "city": "Gao Xiong Shi",
+      "user": {
+        "name": "Sam",
+        "email": "sam@mail",
+        "id": 1
+      },
+      "checkin_date": "2019-06-08",
+      "checkout_date": "2019-06-09",
+      "number_of_rooms": 1,
+      "id": 2
+    },
+    {
+      "property_id": "158wsj96-02fc70f8fbbf4da7bb221542ef1bdbb3",
+      "property_name": "Wei Ye Na Garden Motel",
+      "city": "Gao Xiong Shi",
+      "user": {
+        "id": 2,
+        "name": "amy",
+        "email": "sam@mail"
+      },
+      "checkin_date": "2019-06-08",
+      "checkout_date": "2019-06-09",
+      "number_of_rooms": 1,
+      "id": 3
+    }
+  ]
+}

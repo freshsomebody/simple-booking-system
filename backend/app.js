@@ -6,6 +6,7 @@ var logger = require('morgan')
 var compression = require('compression')
 
 const propertiesRouter = require('./routes/properties')
+const bookingsRouter = require('./routes/bookings')
 
 var app = express()
 
@@ -18,5 +19,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/api/properties', propertiesRouter)
+app.use('/api/bookings', bookingsRouter)
 
 module.exports = app
