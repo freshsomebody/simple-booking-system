@@ -30,6 +30,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "flush-promises": "^1.0.2",
     "lodash.clonedeep": "^4.5.0",
+    "lodash.merge": "^4.6.1",
     "sass": "^1.18.0",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",

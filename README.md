@@ -65,11 +65,13 @@ npm run reset-db
 ## 2. Make sure the user can select a specific property, and create a "fake" booking request.
 ### Frontend
 * [X] Navigate to the booking page when the user clicks on a property
-  * [ ] Display booking form
-    * [ ] Select checkin and checkout dates
-    * [ ] Select number of rooms
-    * [ ] Input username, email
-  * [ ] Calculate the total
+  * [X] Display booking form
+    * [X] Select checkin and checkout dates
+      * [X] checkout min should be checkin + 1
+      * [X] checkout should be bigger than checkin
+    * [X] Select number of rooms
+    * [X] Input username, email
+  * [X] Calculate the total
   * [ ] Submit to confirm booking
 * [ ] Navigate/ display the confirmation page when the booking is completed
   * [ ] Be able to review the confirmation page by the same url later
