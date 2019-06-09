@@ -165,11 +165,11 @@ describe('Booking.vue', () => {
     let checkinPicker = datePickers.at(0)
     let checkoutPicker = datePickers.at(1)
 
-    checkinPicker.vm.$emit('input', '2019-06-30')
-    expect(checkoutPicker.element.min).toBe('2019-07-01')
+    checkinPicker.vm.$emit('input', '9999-06-30')
+    expect(checkoutPicker.element.min).toBe('9999-07-01')
 
-    checkinPicker.vm.$emit('input', '2019-12-31')
-    expect(checkoutPicker.element.min).toBe('2020-01-01')
+    checkinPicker.vm.$emit('input', '9998-12-31')
+    expect(checkoutPicker.element.min).toBe('9999-01-01')
   })
 
   it('sets checkoutDate to checkinDate + 1 if checkoutDate was smaller than checkinDate', async () => {
@@ -180,12 +180,12 @@ describe('Booking.vue', () => {
     let checkinPicker = datePickers.at(0)
     let checkoutPicker = datePickers.at(1)
     // set checkinDate to be bigger than checkOutDate
-    checkoutPicker.vm.$emit('input', '2019-06-09')
-    checkinPicker.vm.$emit('input', '2019-06-10')
+    checkoutPicker.vm.$emit('input', '9999-12-29')
+    checkinPicker.vm.$emit('input', '9999-12-30')
 
     console.log(checkoutPicker.element.value)
 
-    expect(checkoutPicker.element.value).toBe('2019-06-11')
+    expect(checkoutPicker.element.value).toBe('9999-12-31')
   })
 
   it('returns currect total according to pricePerNight, checkinDate, checkoutDate and numberOfRooms', async () => {
@@ -198,8 +198,8 @@ describe('Booking.vue', () => {
     let checkinPicker = datePickers.at(0)
     let checkoutPicker = datePickers.at(1)
     // set checkinDate and checkOutDate
-    checkinPicker.vm.$emit('input', '2019-06-10')
-    checkoutPicker.vm.$emit('input', '2019-06-12')
+    checkinPicker.vm.$emit('input', '9999-12-29')
+    checkoutPicker.vm.$emit('input', '9999-12-31')
     // set numberOfRooms
     wrapper.find(VSelectStub).vm.$emit('input', '2')
 
@@ -235,8 +235,8 @@ describe('Booking.vue', () => {
       propertyId: id,
       propertyName: title,
       city: 'Munich',
-      checkinDate: '2019-06-10',
-      checkoutDate: '2019-06-12',
+      checkinDate: '9999-12-29',
+      checkoutDate: '9999-12-31',
       numberOfRooms: 2,
       username: 'someone',
       email: 'test@email.com'
