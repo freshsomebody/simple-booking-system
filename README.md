@@ -23,11 +23,11 @@ Install packages
 npm install
 ```
 Start the server
-- in Linux or Mac
+- in Linux or Mac, you can run the following command to start both server and database
 ```
 npm run start
 ```
-- in windows (needs two terminals)
+- in windows, you need two terminals to run the following two commands respectively
 ```
 npm run serve
 ```
@@ -38,6 +38,20 @@ Init or clear the database
 ```
 npm run reset-db
 ```
+
+### More details can be referred in the README.md in frontend and backend subfolders respectively.
+
+# Test the minimum requirements
+1. Make sure there's a list, which lets you see/find any property around your current location.
+  * Open [localhost:8080](localhost:8080) in the browser
+  * Allow the browser to get your position
+2. Make sure the user can select a specific property, and create a "fake" booking request.
+  * Click the BOOK button of a property, and It will direct you to the booking page localhost:8080/booking/:PROPERTY_ID
+  * Fill in the required information
+  * Click the BOOK button, and it wil direct you to the page showing all of your bookings. You can try to book with the same Name and Email pair to see the effect.
+3. Show the booking requests list with a public API.
+ * http://localhost:3000/api/properties/:PROPERTY_ID/bookings
+ * http://localhost:3000/api/users/:USER_ID/bookings
 
 # Dev items
 
