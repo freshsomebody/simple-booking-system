@@ -19,7 +19,7 @@ const mockBookingReqBody = {
 
 describe('POST /api/bookings', () => {
   beforeEach(() => {
-    BM.insertBooking = jest.fn(() => Promise.resolve())
+    BM.insertBooking = jest.fn(() => Promise.resolve({ data: { id: 2 } }))
     UM.insertUserIfNotExist = jest.fn(() => Promise.resolve({ id: 1, name: 'Someone', email: 'Someone@email.com' }))
   })
 
@@ -48,5 +48,13 @@ describe('POST /api/bookings', () => {
       .send(mockBookingReqBody)
 
     expect(BM.insertBooking).toBeCalledWith(formattedBooking)
+  })
+
+  it('returns statusCode 201 and { userId, bookingId }', async () => {
+    const response = await request(app).post('/api/bookings')
+      .send(mockBookingReqBody)
+
+    expect(response.statusCode).toBe(201)
+    expect(response.text).toBe(JSON.stringify({ userId: 1, bookingId: 2 }))
   })
 })

@@ -25,9 +25,13 @@ router.post('/', async (req, res) => {
       req.body.numberOfRooms
     )
     // get nearby properties
-    await BookingsModel.insertBooking(newBooking)
+    const booking = await BookingsModel.insertBooking(newBooking)
+    const bookingId = booking.data.id
 
-    res.status(201).send('Created')
+    res.status(201).json({
+      userId: user.id,
+      bookingId
+    })
   } catch (err) {
     res.status(500).send(err.message)
   }
