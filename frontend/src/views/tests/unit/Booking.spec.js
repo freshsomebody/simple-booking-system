@@ -7,6 +7,7 @@ import flushPromises from 'flush-promises'
 import merge from 'lodash.merge'
 
 import Booking from '../../Booking'
+import PropertyCard from '../../../components/PropertyCard'
 
 const localVue = createLocalVue()
 localVue.use(Vuex)
@@ -126,12 +127,13 @@ describe('Booking.vue', () => {
     expect(wrapper.find('.VLayout').exists()).toBeTruthy()
   })
 
-  it('renders base information of the property', async () => {
+  it('renders PropertyCard with property data', async () => {
     const wrapper = createWrapper()
     await flushPromises()
 
-    expect(wrapper.text()).toContain(title)
-    expect(wrapper.text()).toContain(highlightedVicinity)
+    const cardWrapper = wrapper.find(PropertyCard)
+    expect(cardWrapper.exists()).toBeTruthy()
+    expect(cardWrapper.props().property).toEqual(mockPropertyRes.data[0])
   })
 
   it('renders 2 VDatePicker for selecting checkin and checkout dates', async () => {
@@ -180,6 +182,8 @@ describe('Booking.vue', () => {
     // set checkinDate to be bigger than checkOutDate
     checkoutPicker.vm.$emit('input', '2019-06-09')
     checkinPicker.vm.$emit('input', '2019-06-10')
+
+    console.log(checkoutPicker.element.value)
 
     expect(checkoutPicker.element.value).toBe('2019-06-11')
   })

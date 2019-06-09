@@ -13,11 +13,15 @@
     <v-flex
       v-for="(property, index) in sortedNearbyProperties"
       :key="property.id"
+      d-flex
       xs12
       offset-sm1 sm10
       :offset-lg2="index % 2 === 0" :offset-lg0="index % 2 === 1" lg4
     >
-      <PropertyCard :property="property" />
+      <PropertyCard
+        :property="property"
+        show-distance
+        book-btn />
     </v-flex>
   </v-layout>
 </v-container>

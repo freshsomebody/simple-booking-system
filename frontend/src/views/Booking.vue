@@ -10,30 +10,9 @@
   <v-layout row wrap v-if="!fetchError && property">
     <!-- Property card -->
     <v-flex sm12 offset-md1 md10 offset-lg2 lg8>
-      <v-card>
-        <v-layout row wrap>
-          <v-flex xs12 sm5>
-            <v-img
-              src="/assets/p1.jpg"
-              height="250px"
-            ></v-img>
-          </v-flex>
-
-          <v-flex xs12 sm7>
-            <v-card-title primary-title>
-              <div>
-                <h3 class="headline">{{ property.title }}</h3>
-                <div>{{ property.highlightedVicinity }}</div>
-              </div>
-            </v-card-title>
-
-            <v-card-text>
-              <h1>€ {{ pricePerNight }}</h1>
-              <div>per night</div>
-            </v-card-text>
-          </v-flex>
-        </v-layout>
-      </v-card>
+      <PropertyCard
+        :property="property"
+        horizontal />
     </v-flex>
 
     <!-- Checkin date -->
@@ -128,7 +107,13 @@
 <script>
 import { mapActions } from 'vuex'
 
+import PropertyCard from '@/components/PropertyCard'
+
 export default {
+  components: {
+    PropertyCard
+  },
+
   data () {
     return {
       property: null,
