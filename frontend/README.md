@@ -15,11 +15,6 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
 ```
 npm run lint
@@ -30,5 +25,12 @@ npm run lint
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Views
+The landing page
+* [http://localhost:8080](http://localhost:8080)
+
+The Booking page
+* http://localhost:8080/booking/:PROPERTY_ID
+
+All bookings of a user
+* http://localhost:8080/USER_ID/bookings
