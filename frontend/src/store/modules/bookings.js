@@ -8,6 +8,10 @@ export default {
   getters: {},
 
   actions: {
+    fetchBookingsByUserId (store, userId) {
+      return axios.get(`/api/users/${userId}/bookings`)
+    },
+
     createNewBooking (store, bookingInfo) {
       return axios.post(`/api/bookings`, bookingInfo)
     }

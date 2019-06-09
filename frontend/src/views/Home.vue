@@ -1,15 +1,14 @@
 <template>
 <v-container grid-list-lg>
-  <v-layout row wrap>
-    <v-flex xs12>
-      <v-alert
-        :value="!isGeolocationAvailable"
-        type="error"
-      >
-        geolocation is not available
-      </v-alert>
-    </v-flex>
+  <v-alert
+    :value="errorMessage"
+    type="error"
+    class="headline"
+  >
+    {{ errorMessage }}
+  </v-alert>
 
+  <v-layout row wrap v-if="!errorMessage">
     <v-flex
       v-for="(property, index) in sortedNearbyProperties"
       :key="property.id"
@@ -39,7 +38,8 @@ export default {
 
   data () {
     return {
-      isGeolocationAvailable: true
+      isGeolocationAvailable: true,
+      errorMessage: false
     }
   },
 
@@ -76,12 +76,14 @@ export default {
     }
   },
 
-  created () {
-    this.getCurrentPosition().then(position => {
-      this.fetchNearbyProperties(position)
-    }).catch(() => {
+  async created () {
+    try {
+      const position = await this.getCurrentPosition()
+      await this.fetchNearbyProperties(position)
+    } catch (err) {
       this.isGeolocationAvailable = false
-    })
+      this.errorMessage = err.message
+    }
   }
 }
 </script>

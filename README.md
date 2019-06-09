@@ -73,8 +73,8 @@ npm run reset-db
     * [X] Input username, email
   * [X] Calculate the total
   * [X] Submit to confirm booking
-* [ ] Navigate/ display the confirmation page when the booking is completed
-  * [ ] Be able to review the confirmation page by the same url later
+* [X] Navigate to the page showing all bookings of the user
+  * [X] Be able to review the confirmation page by the same url later
 ### Backend
 * [X] POST API for creating a new booking record
   * [X] Create a new user record (if the username, email does not exist yet)

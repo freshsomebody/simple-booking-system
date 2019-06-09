@@ -3,6 +3,7 @@
   <v-alert
     :value="fetchError"
     type="error"
+    class="headline"
   >
     {{ fetchError }}
   </v-alert>
@@ -214,7 +215,10 @@ export default {
       if (this.errorMessages.length === 0) {
         try {
           this.isCreationError = false
-          await this.createNewBooking(this.bookingInfo)
+          const { data } = await this.createNewBooking(this.bookingInfo)
+
+          // redirect to the UserBookings page
+          this.$router.push({ name: 'userBookings', params: { userId: data.userId } })
         } catch (err) {
           this.isCreationError = true
         }

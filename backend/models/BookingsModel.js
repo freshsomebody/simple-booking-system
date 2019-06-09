@@ -8,7 +8,7 @@ module.exports = {
   },
 
   fetchBookingsByUserId: (userId) => {
-    return axios.get(`${DB.HOST}/bookings?user.id=${userId}`)
+    return axios.get(`${DB.HOST}/bookings?user.id=${userId}&_sort=checkin_date,checkout_date&_order=desc`)
   },
 
   insertBooking: (booking) => {

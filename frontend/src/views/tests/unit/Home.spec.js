@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable prefer-promise-reject-errors */
 import Vue from 'vue'
 import { shallowMount, createLocalVue } from '@vue/test-utils'
 import Vuex from 'vuex'
@@ -36,10 +36,49 @@ describe('Home.vue', () => {
     })
   })
 
+  it('displays error alert if getCurrentPosition failed', async () => {
+    const VLayoutStub = { template: '<div class="VLayout" />' }
+    const wrapper = shallowMount(Home, {
+      localVue,
+      store,
+      methods: {
+        getCurrentPosition: jest.fn(() => Promise.reject({ message: 'Cannot get the user location.' }))
+      },
+      stubs: {
+        VLayout: VLayoutStub
+      }
+    })
+
+    await flushPromises()
+
+    expect(wrapper.vm.errorMessage).toBeTruthy()
+    expect(wrapper.find('.VLayout').exists()).toBeFalsy()
+  })
+
+  it('displays error alert if fetchNearbyProperties failed', async () => {
+    const VLayoutStub = { template: '<div class="VLayout" />' }
+    const wrapper = shallowMount(Home, {
+      localVue,
+      store,
+      methods: {
+        getCurrentPosition: jest.fn(() => Promise.resolve([20, 120])),
+        fetchNearbyProperties: jest.fn(() => Promise.reject({ message: 'Failed to ftech properties' }))
+      },
+      stubs: {
+        VLayout: VLayoutStub
+      }
+    })
+
+    await flushPromises()
+
+    expect(wrapper.vm.errorMessage).toBeTruthy()
+    expect(wrapper.find('.VLayout').exists()).toBeFalsy()
+  })
+
   it('calls fetchNearbyProperties to fetch nearby properties', async () => {
     const mockFetchNearbyProperties = jest.fn(() => Promise.resolve())
 
-    const wrapper = shallowMount(Home, {
+    shallowMount(Home, {
       localVue,
       store,
       methods: {

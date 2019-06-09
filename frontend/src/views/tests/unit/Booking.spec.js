@@ -183,8 +183,6 @@ describe('Booking.vue', () => {
     checkoutPicker.vm.$emit('input', '9999-12-29')
     checkinPicker.vm.$emit('input', '9999-12-30')
 
-    console.log(checkoutPicker.element.value)
-
     expect(checkoutPicker.element.value).toBe('9999-12-31')
   })
 
