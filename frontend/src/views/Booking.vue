@@ -79,10 +79,12 @@
       </ul>
 
       <v-btn color="success" @click="submitBooking">Book</v-btn>
-      <v-btn color="error" flat>
-        <router-link tag="span" to="/">
-          Cancel
-        </router-link>
+      <v-btn
+        flat
+        color="error"
+        to="/"
+      >
+        Cancel
       </v-btn>
     </v-flex>
   </v-layout>

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import { shallowMount, RouterLinkStub } from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import merge from 'lodash.merge'
 
 import PropertyCard from '../../PropertyCard'
@@ -21,9 +21,6 @@ describe('PropertyCard.vue', () => {
         horizontal: false,
         showDistance: false,
         bookBtn: false
-      },
-      stubs: {
-        RouterLink: RouterLinkStub
       }
     }
     return shallowMount(PropertyCard, merge(defaultOptions, overrides))
@@ -57,19 +54,19 @@ describe('PropertyCard.vue', () => {
     expect(wrapper.text()).not.toContain(wrapper.props().property.distance / 1000)
   })
 
-  it('renders RouterLink to correct url if propsData bookBtn is true', async () => {
+  it('renders BOOK NOW button to correct url if propsData bookBtn is true', async () => {
     const wrapper = createWrapper({
       propsData: {
         bookBtn: true
       }
     })
 
-    expect(wrapper.find(RouterLinkStub).props().to).toBe(`/booking/${wrapper.props().property.id}`)
+    expect(wrapper.find('.bookBtn').props().to).toBe(`/booking/${wrapper.props().property.id}`)
   })
 
-  it('does not renders RouterLinkif propsData bookBtn is false', async () => {
+  it('does not renders BOOK NOW button if propsData bookBtn is false', async () => {
     const wrapper = createWrapper()
 
-    expect(wrapper.find(RouterLinkStub).exists()).toBeFalsy()
+    expect(wrapper.find('.bookBtn').exists()).toBeFalsy()
   })
 })

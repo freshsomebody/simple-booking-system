@@ -29,10 +29,14 @@
 
     <v-flex xs12 v-if="bookBtn">
       <v-card-actions>
-        <v-btn flat color="orange" v-if="bookBtn">
-          <router-link tag="span" :to="`/booking/${property.id}`">
-            Book Now
-          </router-link>
+        <v-btn
+          v-if="bookBtn"
+          class="bookBtn"
+          flat
+          color="orange"
+          :to="`/booking/${property.id}`"
+        >
+          BOOK NOW
         </v-btn>
       </v-card-actions>
     </v-flex>
