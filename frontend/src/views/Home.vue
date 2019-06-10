@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapMutations } from 'vuex'
 
 import PropertyCard from '@/components/PropertyCard'
 
@@ -60,6 +60,10 @@ export default {
       fetchNearbyProperties: 'fetchNearbyProperties'
     }),
 
+    ...mapMutations({
+      setIsMainScreenLoading: 'setIsMainScreenLoading'
+    }),
+
     getCurrentPosition () {
       return new Promise((resolve, reject) => {
         if ('geolocation' in navigator) {
@@ -77,6 +81,8 @@ export default {
   },
 
   async created () {
+    this.setIsMainScreenLoading(true)
+
     try {
       const position = await this.getCurrentPosition()
       await this.fetchNearbyProperties(position)
@@ -84,6 +90,8 @@ export default {
       this.isGeolocationAvailable = false
       this.errorMessage = err.message
     }
+
+    this.setIsMainScreenLoading(false)
   }
 }
 </script>

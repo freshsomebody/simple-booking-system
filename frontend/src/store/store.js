@@ -14,12 +14,14 @@ export default new Vuex.Store({
   },
 
   state: {
-
+    isMainScreenLoading: false
   },
+
+  actions: {},
+
   mutations: {
-
-  },
-  actions: {
-
+    setIsMainScreenLoading (state, bool) {
+      state.isMainScreenLoading = bool
+    }
   }
 })

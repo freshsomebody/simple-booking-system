@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapMutations } from 'vuex'
 
 export default {
   data () {
@@ -64,6 +64,10 @@ export default {
       fetchBookingsByUserId: 'fetchBookingsByUserId'
     }),
 
+    ...mapMutations({
+      setIsMainScreenLoading: 'setIsMainScreenLoading'
+    }),
+
     checkBookingStatus (booking) {
       const unixCheckin = this.dateToUnix(booking.checkin_date)
       const unixCheckout = this.dateToUnix(booking.checkout_date)
@@ -79,6 +83,8 @@ export default {
   },
 
   async created () {
+    this.setIsMainScreenLoading(true)
+
     try {
       const { data } = await this.fetchBookingsByUserId(this.userId)
 
@@ -89,6 +95,8 @@ export default {
     } catch (err) {
       this.errorMessage = 'Sorry, the service seems currently unavailabe. Please try again later.'
     }
+
+    this.setIsMainScreenLoading(false)
   }
 }
 </script>

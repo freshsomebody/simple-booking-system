@@ -106,7 +106,7 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapMutations } from 'vuex'
 
 import PropertyCard from '@/components/PropertyCard'
 
@@ -191,6 +191,10 @@ export default {
       createNewBooking: 'bookings/createNewBooking'
     }),
 
+    ...mapMutations({
+      setIsMainScreenLoading: 'setIsMainScreenLoading'
+    }),
+
     dateToUnix (date) {
       return new Date(date).getTime()
     },
@@ -227,6 +231,8 @@ export default {
   },
 
   async created () {
+    this.setIsMainScreenLoading(true)
+
     try {
       const { data } = await this.fetchPropertyById(this.bookingInfo.propertyId)
       this.property = data[0]
@@ -240,6 +246,8 @@ export default {
         this.fetchError = 'Sorry, the service seems currently unavailabe. Please try again later.'
       }
     }
+
+    this.setIsMainScreenLoading(false)
   },
 
   watch: {

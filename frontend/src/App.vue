@@ -2,6 +2,8 @@
   <v-app>
     <Navbar />
 
+    <MainScreenLoading />
+
     <v-content>
       <router-view />
     </v-content>
@@ -10,12 +12,14 @@
 
 <script>
 import Navbar from '@/components/Navbar'
+import MainScreenLoading from '@/components/MainScreenLoading'
 
 export default {
   name: 'App',
 
   components: {
-    Navbar
+    Navbar,
+    MainScreenLoading
   },
 
   data () {

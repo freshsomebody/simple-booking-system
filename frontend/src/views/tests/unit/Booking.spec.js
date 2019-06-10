@@ -34,27 +34,35 @@ describe('Booking.vue', () => {
   const mockFetchPropertyById = jest.fn(() => Promise.resolve(mockPropertyRes))
   const mockCreateNewBooking = jest.fn()
 
-  const store = new Vuex.Store({
-    modeuls: {
-      properties: {
-        namespaced: true,
-        actions: {
-          fetchPropertyById: jest.fn(() => Promise.resolve(mockPropertyRes))
+  function createStore (overrides) {
+    const defaultStoreConfig = {
+      modeuls: {
+        properties: {
+          namespaced: true,
+          actions: {
+            fetchPropertyById: jest.fn(() => Promise.resolve(mockPropertyRes))
+          }
+        },
+        bookings: {
+          namespaced: true,
+          actions: {
+            createNewBooking: jest.fn(() => Promise.resolve())
+          }
         }
       },
-      bookings: {
-        namespaced: true,
-        actions: {
-          createNewBooking: jest.fn(() => Promise.resolve())
-        }
+      mutations: {
+        setIsMainScreenLoading: jest.fn()
       }
     }
-  })
+    return new Vuex.Store(
+      merge(defaultStoreConfig, overrides)
+    )
+  }
 
   function createWrapper (overrides) {
     const defaultOption = {
       localVue,
-      store,
+      store: createStore(),
       mocks: {
         $route: {
           params: {
@@ -71,6 +79,7 @@ describe('Booking.vue', () => {
         VBtn: VBtnStub
       },
       methods: {
+        setIsMainScreenLoading: jest.fn(),
         fetchPropertyById: mockFetchPropertyById,
         createNewBooking: mockCreateNewBooking
       }

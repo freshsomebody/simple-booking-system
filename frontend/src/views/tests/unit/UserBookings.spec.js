@@ -47,21 +47,29 @@ describe('Booking.vue', () => {
 
   const mockReturnBookings = jest.fn(() => Promise.resolve({ data: mockBookings }))
 
-  const store = new Vuex.Store({
-    modeuls: {
-      bookings: {
-        namespaced: true,
-        actions: {
-          fetchBookingsByUserId: mockReturnBookings
+  function createStore (overrides) {
+    const defaultStoreConfig = {
+      modeuls: {
+        bookings: {
+          namespaced: true,
+          actions: {
+            fetchBookingsByUserId: mockReturnBookings
+          }
         }
+      },
+      mutations: {
+        setIsMainScreenLoading: jest.fn()
       }
     }
-  })
+    return new Vuex.Store(
+      merge(defaultStoreConfig, overrides)
+    )
+  }
 
   function createWrapper (overrides) {
     const defaultOption = {
       localVue,
-      store,
+      store: createStore(),
       mocks: {
         $route: {
           params: {
@@ -70,6 +78,7 @@ describe('Booking.vue', () => {
         }
       },
       methods: {
+        setIsMainScreenLoading: jest.fn(),
         fetchBookingsByUserId: mockReturnBookings
       }
     }
